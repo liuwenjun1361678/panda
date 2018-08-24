@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.padacn.xmgoing.view.CustomToolBar
+        android:id="@+id/common_travel_people_add_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44">
+
+    </com.padacn.xmgoing.view.CustomToolBar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45">
+
+        <TextView
+            android:layout_width="@dimen/dp_64"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:gravity="center"
+            android:text="中文姓名"
+            android:textColor="#111111" />
+
+        <com.maning.library.MClearEditText
+            android:id="@+id/personal_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_120"
+            android:cursorVisible="true"
+            android:hint="请与证件名字一致"
+            android:textColor="@color/home_bar_serch"
+            android:textCursorDrawable="@drawable/exit_color"
+            android:textSize="@dimen/sp_12"
+            app:mClearEditText_showBottomLine="false" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/main_line_view"></View>
+
+    <RelativeLayout
+        android:id="@+id/common_travle_sex_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_43"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="@dimen/dp_64"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/mine_sex"
+            android:textColor="#111111" />
+
+        <TextView
+            android:id="@+id/common_travle_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_120"
+            android:gravity="center_vertical"
+            android:text="请选择" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_10"
+            android:layout_height="@dimen/dp_16"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/good_detail_go_right" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/main_line_view"></View>
+
+    <RelativeLayout
+        android:id="@+id/common_travle_brith_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_43"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="@dimen/dp_64"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/mine_brith"
+            android:textColor="#111111" />
+
+        <TextView
+            android:id="@+id/common_travle_brith"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_120"
+            android:gravity="center_vertical"
+            android:text="请选择" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_10"
+            android:layout_height="@dimen/dp_16"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+            android:background="@mipmap/good_detail_go_right" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/main_line_view"></View>
+
+    <RelativeLayout
+        android:id="@+id/common_travle_phone_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_43"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="@dimen/dp_64"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="手机号"
+            android:textColor="#111111" />
+
+
+        <com.maning.library.MClearEditText
+            android:id="@+id/common_travle_phone_sex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_120"
+            android:cursorVisible="true"
+            android:hint="常用手机号"
+            android:textColor="@color/home_bar_serch"
+            android:textCursorDrawable="@drawable/exit_color"
+            android:textSize="@dimen/sp_12"
+            app:mClearEditText_showBottomLine="false" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_25"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="152dp"
+            android:background="#DEB887">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_13"
+                android:gravity="center_vertical"
+                android:text="@string/common_travel_people_notice"
+                android:textSize="@dimen/sp_10" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/main_line_view"></View>
+
+    <RelativeLayout
+        android:id="@+id/common_travle_idCard_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_43"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="@dimen/dp_64"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="身份证"
+            android:textColor="#111111" />
+
+
+        <com.maning.library.MClearEditText
+            android:id="@+id/common_travle_idCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_120"
+            android:cursorVisible="true"
+            android:hint="请仔细填写身份证号码"
+            android:textColor="@color/home_bar_serch"
+            android:textCursorDrawable="@drawable/exit_color"
+            android:textSize="@dimen/sp_12"
+            app:mClearEditText_showBottomLine="false" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

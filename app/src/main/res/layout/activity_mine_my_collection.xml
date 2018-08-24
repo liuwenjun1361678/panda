@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.padacn.xmgoing.view.CustomToolBar
+        android:id="@+id/mine_my_order_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44">
+
+    </com.padacn.xmgoing.view.CustomToolBar>
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/mine_my_order_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_27"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:background="#ffffff"
+        app:tl_indicator_color="#f8d748"
+        app:tl_indicator_height="@dimen/dp_2"
+        app:tl_textUnselectColor="#000000"
+        tl:tl_indicator_width_equal_title="true"
+        tl:tl_tab_space_equal="true"
+        tl:tl_textSelectColor="#000000" />
+
+    <com.padacn.xmgoing.view.CustomViewPager
+        android:id="@+id/mine_my_order_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

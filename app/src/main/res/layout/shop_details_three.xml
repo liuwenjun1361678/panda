@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_18"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/shop_details_title_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:includeFontPadding="false"
+            android:text="商品详情"
+            android:textColor="@color/common_text_color_1"
+            android:textSize="@dimen/dp_14" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="@color/common_f0"></View>
+
+    <!--   <RelativeLayout
+           android:id="@+id/shop_details_webview_ll"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="@dimen/dp_10"
+           android:layout_marginRight="@dimen/dp_10">
+
+       </RelativeLayout>-->
+
+    <com.padacn.xmgoing.view.MyWebView
+        android:id="@+id/shop_details_webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:nestedScrollingEnabled="false">
+
+    </com.padacn.xmgoing.view.MyWebView>
+
+
+    <!--    <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_15"
+            android:background="@color/main_line_view"></View>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_18"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/shop_details_title_left" />
+
+            <TextView
+                android:id="@+id/buy_must_know_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:text=""
+                android:textColor="#111111"
+                android:textSize="@dimen/dp_13" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="" />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_2"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="#f0f0f0"></View>
+
+        <jaydenxiao.com.expandabletextview.ExpandableTextView
+            android:id="@+id/buy_must_know"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:padding="8dp"
+            app:animDuration="200"
+            app:collapseDrawable="@drawable/icon_green_arrow_down"
+            app:collapseExpandGrarity="right"
+            app:collapseExpandTextColor="@color/main_color"
+            app:contentTextColor="@color/gray"
+            app:contentTextSize="14sp"
+            app:expandDrawable="@drawable/icon_green_arrow_up"
+            app:maxCollapsedLines="5"
+            app:textCollapse="@string/collapse"
+            app:textExpand="@string/expand" />
+    </LinearLayout>
+
+    <!--
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_15"
+            android:background="@color/main_line_view"></View>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_18"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/shop_details_title_left" />
+
+            <TextView
+                android:id="@+id/buy_cancel_know_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:text="取消政策"
+                android:textColor="#111111"
+                android:textSize="@dimen/dp_13" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_2"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="#f0f0f0"></View>
+
+        <jaydenxiao.com.expandabletextview.ExpandableTextView
+            android:id="@+id/buy_cancel_know"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:padding="@dimen/dp_8"
+            app:animDuration="200"
+            app:collapseDrawable="@drawable/icon_green_arrow_down"
+            app:collapseExpandGrarity="right"
+            app:collapseExpandTextColor="@color/main_color"
+            app:contentTextColor="@color/gray"
+            app:contentTextSize="14sp"
+            app:expandDrawable="@drawable/icon_green_arrow_up"
+            app:maxCollapsedLines="5"
+            app:textCollapse="@string/collapse"
+            app:textExpand="@string/expand" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_ex_coupons_parent"
+    android:layout_width="@dimen/dp_122"
+    android:layout_height="@dimen/dp_75"
+    android:layout_marginRight="@dimen/dp_10"
+    android:background="@mipmap/ex_item_red_bg">
+
+
+    <TextView
+        android:id="@+id/text_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/item_ex_coupons_price"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_15"
+        android:text="@string/moneny_string"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp_8" />
+
+
+    <TextView
+        android:id="@+id/item_ex_coupons_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/dp_12"
+        android:layout_toRightOf="@id/text_left"
+        android:text="100"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp_23" />
+
+
+    <TextView
+        android:id="@+id/item_ex_coupons_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/item_ex_coupons_price"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/dp_10"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp_8" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_below="@+id/item_ex_coupons_price"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:background="@drawable/dashed_line"
+        android:layerType="software"></View>
+
+    <TextView
+        android:id="@+id/sellerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_11"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:background="@drawable/shape_ex_coupons_common"
+        android:ellipsize="end"
+        android:lines="1"
+        android:padding="@dimen/dp_2"
+        android:text="全场通用"
+        android:textColor="#ff8d0e"
+        android:textSize="@dimen/dp_9" />
+
+
+</RelativeLayout>

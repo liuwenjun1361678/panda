@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coupons_center_bg"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_84"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:layout_marginRight="@dimen/dp_10"
+    android:layout_marginTop="@dimen/dp_16"
+    android:background="@mipmap/coupons_all"
+    android:orientation="horizontal">
+
+
+    <com.padacn.xmgoing.view.CornerTextView
+        android:id="@+id/coupons_center_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="呼和浩特"
+        android:textColor="#ffffff"
+        app:beltColor="#ff3d39"
+        app:distance="@dimen/dp_18"
+        app:gravity="topLeft"
+        app:strokeWidth="0dp" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_toRightOf="@+id/coupons_center_city">
+
+        <TextView
+            android:id="@+id/coupons_typeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全平台(除特殊商品外)"
+            android:textColor="#111111"
+            android:textSize="@dimen/sp_11" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/sp_18" />
+
+            <TextView
+                android:id="@+id/coupons_reduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:text="50"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/sp_30" />
+
+
+            <TextView
+                android:id="@+id/coupons_term"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:text="50"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/sp_12" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

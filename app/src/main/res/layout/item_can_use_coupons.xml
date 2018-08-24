@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_84"
+    android:layout_marginTop="@dimen/dp_16"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/coupons_center_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_84"
+        android:layout_weight="1"
+        android:background="@mipmap/coupons_center_all_true">
+
+        <com.padacn.xmgoing.widget.SlantedTextView
+            android:id="@+id/coupons_center_city"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_60"
+            android:layout_alignParentTop="true"
+            app:slantedLength="40dp"
+            app:slantedMode="left"
+            app:slantedText="呼和浩特"
+            app:slantedTextColor="#ffffff"
+            app:slantedTextSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_toRightOf="@+id/coupons_center_city">
+
+            <TextView
+                android:id="@+id/coupons_typeTitle"
+                android:layout_width="@dimen/dp_160"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="全平台(除特殊商品外)"
+                android:textColor="#111111"
+                android:textSize="@dimen/sp_11" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_18" />
+
+                <TextView
+                    android:id="@+id/coupons_reduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:text="50"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_24" />
+
+
+                <TextView
+                    android:id="@+id/coupons_term"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:text="50"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_12" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp_25"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_10">
+
+        <CheckBox
+            android:id="@+id/item_chlid_check"
+            android:layout_width="@dimen/dp_18"
+            android:layout_height="@dimen/dp_18"
+            android:layout_centerInParent="true"
+            android:background="@drawable/round_check_selected"
+            android:button="@android:color/transparent"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </RelativeLayout>
+
+</LinearLayout>

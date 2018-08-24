@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.padacn.xmgoing.view.CustomToolBar
+        android:id="@+id/mine_my_message_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/mine_my_message_rf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mine_my_message_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:nestedScrollingEnabled="false">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

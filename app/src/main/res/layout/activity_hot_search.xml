@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#ffffff"
+        app:contentInsetStart="0dp"
+        app:layout_collapseMode="pin">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/hot_back_rl"
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_10">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_10"
+                    android:layout_height="@dimen/dp_16"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/home_secound_back" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/home_top_bar_search_ll"
+                android:layout_width="@dimen/dp_242"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_weight="1"
+                android:background="@drawable/shape_hot_search"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_15"
+                    android:layout_height="@dimen/dp_15"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp_14"
+                    android:src="@mipmap/home_bar_serch" />
+
+
+                <com.maning.library.MClearEditText
+                    android:id="@+id/hot_search_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:background="@null"
+                    android:cursorVisible="true"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/home_bar_hint"
+                    android:imeOptions="actionSearch"
+                    android:paddingLeft="@dimen/dp_12"
+                    android:singleLine="true"
+                    android:textColor="@color/home_bar_serch"
+                    android:textCursorDrawable="@drawable/shape_et_cursor_color"
+                    android:textSize="@dimen/sp_12"
+
+                    app:mClearEditText_showBottomLine="false" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/hot_search_text_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+
+                    android:text="搜索"
+                    android:textColor="@color/common_text_color_1"
+                    android:textSize="@dimen/sp_13" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:id="@+id/history_search_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@color/common_ffffff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/hot_search_del_Rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text="历史搜索"
+                android:textColor="@color/common_text_color_1"
+                android:textSize="@dimen/sp_13" />
+
+
+            <ImageView
+                android:id="@+id/history_del_image"
+                android:layout_width="@dimen/dp_18"
+                android:layout_height="@dimen/dp_18"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_20"
+                android:src="@mipmap/hot_search_del_image" />
+
+        </RelativeLayout>
+
+
+        <com.padacn.xmgoing.view.flow.TagFlowLayout
+            android:id="@+id/search_history_flowlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            app:max_select="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hot_search_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="热门搜索"
+            android:textColor="@color/common_text_color_1"
+            android:textSize="@dimen/sp_13" />
+
+
+        <com.padacn.xmgoing.view.flow.TagFlowLayout
+            android:id="@+id/search_page_flowlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            app:max_select="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

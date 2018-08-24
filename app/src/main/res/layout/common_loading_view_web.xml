@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_loading_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_500"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_500"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.padacn.xmgoing.view.TopRefreshImage
+            android:id="@+id/common_load_image_gif"
+            android:layout_width="@dimen/dp_75"
+            android:layout_height="@dimen/dp_75"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_133"
+            android:background="@drawable/common_loading" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="加载中..." />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.padacn.xmgoing.view.CustomToolBar
+        android:id="@+id/login_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44">
+
+    </com.padacn.xmgoing.view.CustomToolBar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="@color/main_line_view"></View>
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/login_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/common_ffffff"
+        app:tl_indicator_color="#f8d748"
+        app:tl_indicator_height="@dimen/dp_2"
+        app:tl_textUnselectColor="#000000"
+        app:tl_textsize="@dimen/sp_15"
+        tl:tl_indicator_width_equal_title="true"
+        tl:tl_tab_space_equal="true"
+        tl:tl_textSelectColor="#000000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="@color/common_f0">
+
+    </View>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/login_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

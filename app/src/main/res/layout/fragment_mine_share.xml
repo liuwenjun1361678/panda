@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_f0"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_15"
+        android:text="@string/mine_share_text" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mine_share_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_104">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <!--    <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/home_bar_serch">
+        </View>-->
+
+    <RelativeLayout
+        android:id="@+id/mine_share_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/common_ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="取消" />
+    </RelativeLayout>
+
+</LinearLayout>

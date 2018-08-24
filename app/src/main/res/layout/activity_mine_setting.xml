@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.padacn.xmgoing.view.CustomToolBar
+        android:id="@+id/mine_setting_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44">
+
+    </com.padacn.xmgoing.view.CustomToolBar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mine_setting_bar"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_15"
+            android:background="@color/main_line_view">
+
+        </View>
+
+        <RelativeLayout
+            android:id="@+id/update_phone_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_43"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="修改绑定手机号码" />
+
+            <TextView
+                android:id="@+id/mine_setting_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp_15"
+                android:layout_toStartOf="@+id/imageView"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/mine_setting_update" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/main_line_view"></View>
+
+        <RelativeLayout
+            android:id="@+id/update_password_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_43"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+
+            <TextView
+                android:id="@+id/setting_password_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="修改登陆密码" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/mine_setting_update" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/main_line_view"></View>
+
+
+        <RelativeLayout
+            android:id="@+id/common_contacts_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_43"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="常用出行人" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/mine_setting_update" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/main_line_view"></View>
+
+        <RelativeLayout
+            android:id="@+id/clean_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_43"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="清除缓存" />
+
+            <TextView
+                android:id="@+id/mine_setting_cache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp_15"
+                android:layout_toStartOf="@+id/imageView_cache"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/imageView_cache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/mine_setting_update" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/main_line_view"></View>
+
+
+        <RelativeLayout
+            android:id="@+id/abount_us_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_43"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="关于我们" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/mine_setting_update" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/main_line_view"></View>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/cancel_login_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_alignParentBottom="true"
+        android:background="#d6201f">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="退出当前账号"
+            android:textColor="#ffffff" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_strategy_smartRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MergeRootFrame">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/home_second_appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@color/write">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentScrim="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.youth.banner.Banner
+                        android:id="@+id/home_second_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_182"
+                        android:scaleType="centerCrop"
+                        app:indicator_drawable_selected="@drawable/shape_banner_true"
+                        app:indicator_drawable_unselected="@drawable/shape_banner_false"
+                        app:indicator_margin="@dimen/dp_1"
+                        app:indicator_width="@dimen/dp_14" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/home_second_top_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_60"
+                    app:contentInsetStart="0dp"
+                    app:layout_collapseMode="pin">
+
+                    <RelativeLayout
+                        android:id="@+id/home_second_top_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/login_button_bg"
+
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/dp_20">
+
+                        <RelativeLayout
+                            android:id="@+id/home_second_back_rl"
+                            android:layout_width="@dimen/dp_36"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="@dimen/dp_10"
+                                android:layout_height="@dimen/dp_18"
+                                android:layout_centerInParent="true"
+                                android:background="@mipmap/home_secound_back" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true">
+
+                            <LinearLayout
+                                android:id="@+id/home_top_bar_search_ll"
+                                android:layout_width="@dimen/dp_242"
+                                android:layout_height="@dimen/dp_30"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/shape_seek"
+                                android:descendantFocusability="beforeDescendants"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/dp_14"
+                                    android:src="@mipmap/home_bar_serch" />
+
+
+                                <TextView
+                                    android:id="@+id/home_top_bar_search"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/dp_12"
+                                    android:layout_marginRight="@dimen/dp_10"
+                                    android:background="@null"
+                                    android:cursorVisible="true"
+                                    android:drawablePadding="10dp"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:gravity="center_vertical"
+                                    android:hint="@string/home_bar_hint"
+                                    android:paddingLeft="@dimen/dp_12"
+                                    android:textColor="@color/home_bar_serch"
+                                    android:textSize="@dimen/sp_12" />
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+                </android.support.v7.widget.Toolbar>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:src="#000000"></View>
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/home_second_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="vertical">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>
+

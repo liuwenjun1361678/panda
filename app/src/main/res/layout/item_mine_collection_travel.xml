@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_75"
+    android:layout_marginBottom="@dimen/dp_14"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:layout_marginRight="@dimen/dp_10"
+    android:layout_marginTop="@dimen/dp_14"
+    android:clickable="true">
+
+
+    <com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout
+        android:id="@+id/es"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentView="@+id/content"
+        app:rightMenuView="@+id/right">
+
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/item_mine_my_collection_image"
+                android:layout_width="@dimen/dp_97"
+                android:layout_height="@dimen/dp_74"
+                android:background="@mipmap/default_image" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:id="@+id/item_mine_my_collection_title"
+                    android:layout_width="@dimen/dp_233"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:text="@string/home_more_text" />
+
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/item_mine_my_collection_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:text="2018-10-10" />
+
+
+                <TextView
+                    android:id="@+id/item_mine_my_collection_publisher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/item_mine_my_collection_title"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="7dp"
+                    android:text="发布者：平台" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="@dimen/dp_114"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#f8d748"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="分享" />
+
+            <TextView
+                android:id="@+id/right_menu_2"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_dark"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="刪除" />
+
+        </LinearLayout>
+    </com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout>
+
+
+</RelativeLayout>

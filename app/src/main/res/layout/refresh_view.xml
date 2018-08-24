@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+
+    <!--   <bookboy.app.com.bookboy.view.TopRefreshImage
+           android:id="@+id/load_image_gif"
+           android:layout_width="@dimen/dp_75"
+           android:layout_height="@dimen/dp_75"
+           android:layout_gravity="center_vertical"
+           android:layout_marginLeft="@dimen/dp_133"
+           android:background="@drawable/common_top_refresh" />-->
+
+    <ImageView
+        android:id="@+id/load_image_gif"
+        android:layout_width="@dimen/dp_75"
+        android:layout_height="@dimen/dp_75"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp_133"
+        android:background="@drawable/common_top_refresh" />
+
+    <TextView
+        android:id="@+id/refresh_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="刷新中..." />
+
+</LinearLayout>

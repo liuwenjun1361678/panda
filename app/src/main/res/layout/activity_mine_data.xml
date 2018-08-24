@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.padacn.xmgoing.view.CustomToolBar
+        android:id="@+id/personal_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44">
+
+    </com.padacn.xmgoing.view.CustomToolBar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_13"
+                    android:background="@color/main_line_view">
+
+                </View>
+
+
+                <RelativeLayout
+                    android:id="@+id/personal_name_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_57"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="头像"
+                        android:textColor="#111111" />
+
+                    <com.padacn.xmgoing.view.ZQRoundOvalImageView
+                        android:id="@+id/item_chlid_image"
+                        android:layout_width="@dimen/dp_46"
+                        android:layout_height="@dimen/dp_46"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/default_image"
+                        android:scaleType="fitXY" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/main_line_view"></View>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_43"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/mine_name" />
+
+
+                    <com.maning.library.MClearEditText
+                        android:id="@+id/personal_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_91"
+                        android:cursorVisible="true"
+                        android:hint="请输入您的昵称"
+                        android:textColor="@color/home_bar_serch"
+                        android:textCursorDrawable="@drawable/exit_color"
+                        android:textSize="@dimen/sp_12"
+                        app:mClearEditText_showBottomLine="false" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/main_line_view"></View>
+
+
+                <RelativeLayout
+                    android:id="@+id/personal_sex_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_43"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/mine_sex" />
+
+                    <TextView
+                        android:id="@+id/personal_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_91"
+                        android:gravity="center_vertical"
+                        android:text="@string/mine_sex"
+                        android:textColor="#111111" />
+
+                    <ImageView
+                        android:layout_width="@dimen/dp_10"
+                        android:layout_height="@dimen/dp_16"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/good_detail_go_right" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/main_line_view"></View>
+
+                <RelativeLayout
+                    android:id="@+id/personal_brith_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_43"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/mine_brith" />
+
+                    <TextView
+                        android:id="@+id/personal_brith"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_91"
+                        android:gravity="center_vertical"
+                        android:text="@string/mine_brith"
+                        android:textColor="#111111" />
+
+                    <ImageView
+                        android:layout_width="@dimen/dp_10"
+                        android:layout_height="@dimen/dp_16"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+
+                        android:background="@mipmap/good_detail_go_right" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/main_line_view"></View>
+
+                <RelativeLayout
+                    android:id="@+id/personal_city_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_43"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/mine_city" />
+
+                    <TextView
+                        android:id="@+id/personal_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_91"
+                        android:gravity="center_vertical"
+                        android:text="@string/mine_city"
+                        android:textColor="#111111" />
+
+                    <ImageView
+                        android:layout_width="@dimen/dp_10"
+                        android:layout_height="@dimen/dp_16"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+
+                        android:background="@mipmap/good_detail_go_right" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_53"
+                    android:background="@color/main_line_view"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingRight="@dimen/dp_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/dp_29"
+                        android:text="@string/mine_children_data_title" />
+
+                    <TextView
+                        android:id="@+id/children_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_91"
+                        android:layout_marginTop="@dimen/dp_29"
+                        android:text="@string/mine_children_data_num" />
+
+                    <TextView
+                        android:id="@+id/mine_chilren_add_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_29"
+                        android:text="@string/mine_children_data_add"></TextView>
+                </RelativeLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/mine_data_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:nestedScrollingEnabled="false">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

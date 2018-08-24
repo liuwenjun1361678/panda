@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f8d748</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="divide_gray_color">#666666</color>
+
+    //首页
+    <color name="home_bar_serch">#666666</color>
+    <color name="home_bar_serch_bg">#d5f0f8</color>
+    <color name="home_second_kill">#ffffff</color>
+    <color name="home_second_rl_bg">#66000000</color>
+    <color name="home_top_text_color">#111111</color>
+
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="write">#FFFFFF</color>
+    <color name="colorBarText">#FFFFFF</color>
+
+
+    <color name="main_line_view">#F0F0F0</color>
+    <color name="tans">#00000000</color>
+    <color name="cool_green_shade">#81c784</color>
+    <color name="main_bottom_textColor">#666666</color>
+    <color name="login_line_view">#000000</color>
+    <color name="login_button_bg">#f8d748</color>
+
+
+    <color name="line_color">#e7e7e7</color>
+    <color name="content_background">#f2f2f2</color>
+    <color name="solar_background">#009988</color>
+
+    <color name="home_secound_kill">#FEA700</color>
+    <color name="shopcar_colorOrder">#E8321D</color>
+    <color name="colorGrayan">#E4E4E4</color>
+    <color name="common_all_bg">#FFFFFF</color>
+    <color name="common_price_red">#d20102</color>
+    <color name="corner_text_bg">#ff3d39</color>
+    <color name="common_top_bar_bg">#f8d748</color>
+    <color name="common_view_line">#F0F0F0</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="common_f0">#F0F0F0</color>
+    <color name="common_ffffff">#FFFFFF</color>
+    <color name="common_text_color_1">#111111</color>
+    <color name="common_text_color_6">#666666</color>
+    <color name="common_text_color_9">#999999</color>
+
+    <color name="common_c">#cccccc</color>
+    <color name="home_more_right">#FEA700</color>
+    <color name="common_f7">#f7f7f7</color>
+
+</resources>

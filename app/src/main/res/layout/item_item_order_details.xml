@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/item_item_order_details_one_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_110"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_item_order_details_one_image"
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:scaleType="center"
+            android:src="@mipmap/default_image" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_90"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_item_order_details_one_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="2"
+                android:text="11111111111111" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/dp_150"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/item_item_order_details_one_tiketype"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:text="111111" />
+
+
+                    <TextView
+                        android:id="@+id/item_item_order_details_one_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:text="11111" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/item_item_order_details_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1111" />
+
+                    <TextView
+                        android:id="@+id/item_item_order_details_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="111111" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="#ffffff"></View>
+
+
+    <RelativeLayout
+        android:id="@+id/item_item_order_details_travle_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_33">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text="出行人:" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/item_item_order_details_ry"
+                android:layout_width="@dimen/dp_266"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp_10">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/dp_10"
+            android:layout_height="@dimen/dp_10"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@mipmap/good_detail_go_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/order_details_bottom_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_34">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_bottom_left"
+                android:layout_width="@dimen/dp_76"
+                android:layout_height="@dimen/dp_25"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/dp_10"
+                android:gravity="center"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/item_bottom_right"
+                android:layout_width="@dimen/dp_76"
+                android:layout_height="@dimen/dp_25"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <!--    <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_15"
+            android:background="#ffffff"></View>-->
+
+
+</LinearLayout>

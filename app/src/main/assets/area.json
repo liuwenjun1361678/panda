@@ -1,0 +1,2545 @@
+﻿{
+  "area": [
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "安庆",
+      "area_type": "2",
+      "area_id": "36"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "蚌埠",
+      "area_type": "2",
+      "area_id": "37"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "巢湖",
+      "area_type": "2",
+      "area_id": "38"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "池州",
+      "area_type": "2",
+      "area_id": "39"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "滁州",
+      "area_type": "2",
+      "area_id": "40"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "阜阳",
+      "area_type": "2",
+      "area_id": "41"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "淮北",
+      "area_type": "2",
+      "area_id": "42"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "淮南",
+      "area_type": "2",
+      "area_id": "43"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "黄山",
+      "area_type": "2",
+      "area_id": "44"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "六安",
+      "area_type": "2",
+      "area_id": "45"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "马鞍山",
+      "area_type": "2",
+      "area_id": "46"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "宿州",
+      "area_type": "2",
+      "area_id": "47"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "铜陵",
+      "area_type": "2",
+      "area_id": "48"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "芜湖",
+      "area_type": "2",
+      "area_id": "49"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "宣城",
+      "area_type": "2",
+      "area_id": "50"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "亳州",
+      "area_type": "2",
+      "area_id": "51"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "2",
+      "area_name": "北京",
+      "area_type": "2",
+      "area_id": "52"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "4",
+      "area_name": "福州",
+      "area_type": "2",
+      "area_id": "53"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "4",
+      "area_name": "龙岩",
+      "area_type": "2",
+      "area_id": "54"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "4",
+      "area_name": "南平",
+      "area_type": "2",
+      "area_id": "55"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "4",
+      "area_name": "宁德",
+      "area_type": "2",
+      "area_id": "56"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "4",
+      "area_name": "莆田",
+      "area_type": "2",
+      "area_id": "57"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "4",
+      "area_name": "泉州",
+      "area_type": "2",
+      "area_id": "58"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "4",
+      "area_name": "三明",
+      "area_type": "2",
+      "area_id": "59"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "4",
+      "area_name": "厦门",
+      "area_type": "2",
+      "area_id": "60"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "4",
+      "area_name": "漳州",
+      "area_type": "2",
+      "area_id": "61"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "兰州",
+      "area_type": "2",
+      "area_id": "62"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "白银",
+      "area_type": "2",
+      "area_id": "63"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "定西",
+      "area_type": "2",
+      "area_id": "64"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "甘南",
+      "area_type": "2",
+      "area_id": "65"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "嘉峪关",
+      "area_type": "2",
+      "area_id": "66"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "金昌",
+      "area_type": "2",
+      "area_id": "67"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "酒泉",
+      "area_type": "2",
+      "area_id": "68"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "临夏",
+      "area_type": "2",
+      "area_id": "69"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "陇南",
+      "area_type": "2",
+      "area_id": "70"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "平凉",
+      "area_type": "2",
+      "area_id": "71"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "庆阳",
+      "area_type": "2",
+      "area_id": "72"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "天水",
+      "area_type": "2",
+      "area_id": "73"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "武威",
+      "area_type": "2",
+      "area_id": "74"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "5",
+      "area_name": "张掖",
+      "area_type": "2",
+      "area_id": "75"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "广州",
+      "area_type": "2",
+      "area_id": "76"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "深圳",
+      "area_type": "2",
+      "area_id": "77"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "潮州",
+      "area_type": "2",
+      "area_id": "78"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "东莞",
+      "area_type": "2",
+      "area_id": "79"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "佛山",
+      "area_type": "2",
+      "area_id": "80"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "河源",
+      "area_type": "2",
+      "area_id": "81"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "惠州",
+      "area_type": "2",
+      "area_id": "82"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "江门",
+      "area_type": "2",
+      "area_id": "83"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "揭阳",
+      "area_type": "2",
+      "area_id": "84"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "茂名",
+      "area_type": "2",
+      "area_id": "85"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "梅州",
+      "area_type": "2",
+      "area_id": "86"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "清远",
+      "area_type": "2",
+      "area_id": "87"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "汕头",
+      "area_type": "2",
+      "area_id": "88"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "汕尾",
+      "area_type": "2",
+      "area_id": "89"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "韶关",
+      "area_type": "2",
+      "area_id": "90"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "阳江",
+      "area_type": "2",
+      "area_id": "91"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "云浮",
+      "area_type": "2",
+      "area_id": "92"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "湛江",
+      "area_type": "2",
+      "area_id": "93"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "肇庆",
+      "area_type": "2",
+      "area_id": "94"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "中山",
+      "area_type": "2",
+      "area_id": "95"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "6",
+      "area_name": "珠海",
+      "area_type": "2",
+      "area_id": "96"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "南宁",
+      "area_type": "2",
+      "area_id": "97"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "桂林",
+      "area_type": "2",
+      "area_id": "98"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "百色",
+      "area_type": "2",
+      "area_id": "99"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "北海",
+      "area_type": "2",
+      "area_id": "100"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "崇左",
+      "area_type": "2",
+      "area_id": "101"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "防城港",
+      "area_type": "2",
+      "area_id": "102"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "贵港",
+      "area_type": "2",
+      "area_id": "103"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "河池",
+      "area_type": "2",
+      "area_id": "104"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "贺州",
+      "area_type": "2",
+      "area_id": "105"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "来宾",
+      "area_type": "2",
+      "area_id": "106"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "柳州",
+      "area_type": "2",
+      "area_id": "107"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "钦州",
+      "area_type": "2",
+      "area_id": "108"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "梧州",
+      "area_type": "2",
+      "area_id": "109"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "7",
+      "area_name": "玉林",
+      "area_type": "2",
+      "area_id": "110"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "8",
+      "area_name": "贵阳",
+      "area_type": "2",
+      "area_id": "111"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "8",
+      "area_name": "安顺",
+      "area_type": "2",
+      "area_id": "112"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "8",
+      "area_name": "毕节",
+      "area_type": "2",
+      "area_id": "113"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "8",
+      "area_name": "六盘水",
+      "area_type": "2",
+      "area_id": "114"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "8",
+      "area_name": "黔东南",
+      "area_type": "2",
+      "area_id": "115"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "8",
+      "area_name": "黔南",
+      "area_type": "2",
+      "area_id": "116"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "8",
+      "area_name": "黔西南",
+      "area_type": "2",
+      "area_id": "117"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "8",
+      "area_name": "铜仁",
+      "area_type": "2",
+      "area_id": "118"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "8",
+      "area_name": "遵义",
+      "area_type": "2",
+      "area_id": "119"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "海口",
+      "area_type": "2",
+      "area_id": "120"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "三亚",
+      "area_type": "2",
+      "area_id": "121"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "白沙",
+      "area_type": "2",
+      "area_id": "122"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "保亭",
+      "area_type": "2",
+      "area_id": "123"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "昌江",
+      "area_type": "2",
+      "area_id": "124"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "澄迈县",
+      "area_type": "2",
+      "area_id": "125"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "定安县",
+      "area_type": "2",
+      "area_id": "126"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "东方",
+      "area_type": "2",
+      "area_id": "127"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "乐东",
+      "area_type": "2",
+      "area_id": "128"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "临高县",
+      "area_type": "2",
+      "area_id": "129"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "陵水",
+      "area_type": "2",
+      "area_id": "130"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "琼海",
+      "area_type": "2",
+      "area_id": "131"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "琼中",
+      "area_type": "2",
+      "area_id": "132"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "屯昌县",
+      "area_type": "2",
+      "area_id": "133"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "万宁",
+      "area_type": "2",
+      "area_id": "134"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "文昌",
+      "area_type": "2",
+      "area_id": "135"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "五指山",
+      "area_type": "2",
+      "area_id": "136"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "9",
+      "area_name": "儋州",
+      "area_type": "2",
+      "area_id": "137"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "石家庄",
+      "area_type": "2",
+      "area_id": "138"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "保定",
+      "area_type": "2",
+      "area_id": "139"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "沧州",
+      "area_type": "2",
+      "area_id": "140"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "承德",
+      "area_type": "2",
+      "area_id": "141"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "邯郸",
+      "area_type": "2",
+      "area_id": "142"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "衡水",
+      "area_type": "2",
+      "area_id": "143"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "廊坊",
+      "area_type": "2",
+      "area_id": "144"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "秦皇岛",
+      "area_type": "2",
+      "area_id": "145"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "唐山",
+      "area_type": "2",
+      "area_id": "146"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "邢台",
+      "area_type": "2",
+      "area_id": "147"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "10",
+      "area_name": "张家口",
+      "area_type": "2",
+      "area_id": "148"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "郑州",
+      "area_type": "2",
+      "area_id": "149"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "洛阳",
+      "area_type": "2",
+      "area_id": "150"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "开封",
+      "area_type": "2",
+      "area_id": "151"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "安阳",
+      "area_type": "2",
+      "area_id": "152"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "鹤壁",
+      "area_type": "2",
+      "area_id": "153"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "济源",
+      "area_type": "2",
+      "area_id": "154"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "焦作",
+      "area_type": "2",
+      "area_id": "155"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "南阳",
+      "area_type": "2",
+      "area_id": "156"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "平顶山",
+      "area_type": "2",
+      "area_id": "157"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "三门峡",
+      "area_type": "2",
+      "area_id": "158"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "商丘",
+      "area_type": "2",
+      "area_id": "159"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "新乡",
+      "area_type": "2",
+      "area_id": "160"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "信阳",
+      "area_type": "2",
+      "area_id": "161"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "许昌",
+      "area_type": "2",
+      "area_id": "162"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "周口",
+      "area_type": "2",
+      "area_id": "163"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "驻马店",
+      "area_type": "2",
+      "area_id": "164"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "漯河",
+      "area_type": "2",
+      "area_id": "165"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "11",
+      "area_name": "濮阳",
+      "area_type": "2",
+      "area_id": "166"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "哈尔滨",
+      "area_type": "2",
+      "area_id": "167"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "大庆",
+      "area_type": "2",
+      "area_id": "168"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "大兴安岭",
+      "area_type": "2",
+      "area_id": "169"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "鹤岗",
+      "area_type": "2",
+      "area_id": "170"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "黑河",
+      "area_type": "2",
+      "area_id": "171"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "鸡西",
+      "area_type": "2",
+      "area_id": "172"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "佳木斯",
+      "area_type": "2",
+      "area_id": "173"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "牡丹江",
+      "area_type": "2",
+      "area_id": "174"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "七台河",
+      "area_type": "2",
+      "area_id": "175"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "齐齐哈尔",
+      "area_type": "2",
+      "area_id": "176"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "双鸭山",
+      "area_type": "2",
+      "area_id": "177"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "绥化",
+      "area_type": "2",
+      "area_id": "178"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "12",
+      "area_name": "伊春",
+      "area_type": "2",
+      "area_id": "179"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "武汉",
+      "area_type": "2",
+      "area_id": "180"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "仙桃",
+      "area_type": "2",
+      "area_id": "181"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "鄂州",
+      "area_type": "2",
+      "area_id": "182"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "黄冈",
+      "area_type": "2",
+      "area_id": "183"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "黄石",
+      "area_type": "2",
+      "area_id": "184"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "荆门",
+      "area_type": "2",
+      "area_id": "185"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "荆州",
+      "area_type": "2",
+      "area_id": "186"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "潜江",
+      "area_type": "2",
+      "area_id": "187"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "神农架林区",
+      "area_type": "2",
+      "area_id": "188"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "十堰",
+      "area_type": "2",
+      "area_id": "189"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "随州",
+      "area_type": "2",
+      "area_id": "190"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "天门",
+      "area_type": "2",
+      "area_id": "191"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "咸宁",
+      "area_type": "2",
+      "area_id": "192"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "襄樊",
+      "area_type": "2",
+      "area_id": "193"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "孝感",
+      "area_type": "2",
+      "area_id": "194"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "宜昌",
+      "area_type": "2",
+      "area_id": "195"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "13",
+      "area_name": "恩施",
+      "area_type": "2",
+      "area_id": "196"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "长沙",
+      "area_type": "2",
+      "area_id": "197"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "张家界",
+      "area_type": "2",
+      "area_id": "198"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "常德",
+      "area_type": "2",
+      "area_id": "199"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "郴州",
+      "area_type": "2",
+      "area_id": "200"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "衡阳",
+      "area_type": "2",
+      "area_id": "201"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "怀化",
+      "area_type": "2",
+      "area_id": "202"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "娄底",
+      "area_type": "2",
+      "area_id": "203"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "邵阳",
+      "area_type": "2",
+      "area_id": "204"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "湘潭",
+      "area_type": "2",
+      "area_id": "205"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "湘西",
+      "area_type": "2",
+      "area_id": "206"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "益阳",
+      "area_type": "2",
+      "area_id": "207"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "永州",
+      "area_type": "2",
+      "area_id": "208"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "岳阳",
+      "area_type": "2",
+      "area_id": "209"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "14",
+      "area_name": "株洲",
+      "area_type": "2",
+      "area_id": "210"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "15",
+      "area_name": "长春",
+      "area_type": "2",
+      "area_id": "211"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "15",
+      "area_name": "吉林",
+      "area_type": "2",
+      "area_id": "212"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "15",
+      "area_name": "白城",
+      "area_type": "2",
+      "area_id": "213"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "15",
+      "area_name": "白山",
+      "area_type": "2",
+      "area_id": "214"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "15",
+      "area_name": "辽源",
+      "area_type": "2",
+      "area_id": "215"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "15",
+      "area_name": "四平",
+      "area_type": "2",
+      "area_id": "216"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "15",
+      "area_name": "松原",
+      "area_type": "2",
+      "area_id": "217"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "15",
+      "area_name": "通化",
+      "area_type": "2",
+      "area_id": "218"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "15",
+      "area_name": "延边",
+      "area_type": "2",
+      "area_id": "219"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "南京",
+      "area_type": "2",
+      "area_id": "220"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "苏州",
+      "area_type": "2",
+      "area_id": "221"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "无锡",
+      "area_type": "2",
+      "area_id": "222"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "常州",
+      "area_type": "2",
+      "area_id": "223"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "淮安",
+      "area_type": "2",
+      "area_id": "224"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "连云港",
+      "area_type": "2",
+      "area_id": "225"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "南通",
+      "area_type": "2",
+      "area_id": "226"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "宿迁",
+      "area_type": "2",
+      "area_id": "227"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "泰州",
+      "area_type": "2",
+      "area_id": "228"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "徐州",
+      "area_type": "2",
+      "area_id": "229"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "盐城",
+      "area_type": "2",
+      "area_id": "230"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "扬州",
+      "area_type": "2",
+      "area_id": "231"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "16",
+      "area_name": "镇江",
+      "area_type": "2",
+      "area_id": "232"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "南昌",
+      "area_type": "2",
+      "area_id": "233"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "抚州",
+      "area_type": "2",
+      "area_id": "234"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "赣州",
+      "area_type": "2",
+      "area_id": "235"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "吉安",
+      "area_type": "2",
+      "area_id": "236"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "景德镇",
+      "area_type": "2",
+      "area_id": "237"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "九江",
+      "area_type": "2",
+      "area_id": "238"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "萍乡",
+      "area_type": "2",
+      "area_id": "239"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "上饶",
+      "area_type": "2",
+      "area_id": "240"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "新余",
+      "area_type": "2",
+      "area_id": "241"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "宜春",
+      "area_type": "2",
+      "area_id": "242"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "17",
+      "area_name": "鹰潭",
+      "area_type": "2",
+      "area_id": "243"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "沈阳",
+      "area_type": "2",
+      "area_id": "244"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "大连",
+      "area_type": "2",
+      "area_id": "245"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "鞍山",
+      "area_type": "2",
+      "area_id": "246"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "本溪",
+      "area_type": "2",
+      "area_id": "247"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "朝阳",
+      "area_type": "2",
+      "area_id": "248"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "丹东",
+      "area_type": "2",
+      "area_id": "249"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "抚顺",
+      "area_type": "2",
+      "area_id": "250"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "阜新",
+      "area_type": "2",
+      "area_id": "251"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "葫芦岛",
+      "area_type": "2",
+      "area_id": "252"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "锦州",
+      "area_type": "2",
+      "area_id": "253"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "辽阳",
+      "area_type": "2",
+      "area_id": "254"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "盘锦",
+      "area_type": "2",
+      "area_id": "255"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "铁岭",
+      "area_type": "2",
+      "area_id": "256"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "18",
+      "area_name": "营口",
+      "area_type": "2",
+      "area_id": "257"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "呼和浩特",
+      "area_type": "2",
+      "area_id": "258"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "阿拉善盟",
+      "area_type": "2",
+      "area_id": "259"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "巴彦淖尔盟",
+      "area_type": "2",
+      "area_id": "260"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "包头",
+      "area_type": "2",
+      "area_id": "261"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "赤峰",
+      "area_type": "2",
+      "area_id": "262"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "鄂尔多斯",
+      "area_type": "2",
+      "area_id": "263"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "呼伦贝尔",
+      "area_type": "2",
+      "area_id": "264"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "通辽",
+      "area_type": "2",
+      "area_id": "265"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "乌海",
+      "area_type": "2",
+      "area_id": "266"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "乌兰察布",
+      "area_type": "2",
+      "area_id": "267"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "锡林郭勒盟",
+      "area_type": "2",
+      "area_id": "268"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "19",
+      "area_name": "兴安盟",
+      "area_type": "2",
+      "area_id": "269"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "20",
+      "area_name": "银川",
+      "area_type": "2",
+      "area_id": "270"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "20",
+      "area_name": "固原",
+      "area_type": "2",
+      "area_id": "271"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "20",
+      "area_name": "石嘴山",
+      "area_type": "2",
+      "area_id": "272"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "20",
+      "area_name": "吴忠",
+      "area_type": "2",
+      "area_id": "273"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "20",
+      "area_name": "中卫",
+      "area_type": "2",
+      "area_id": "274"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "21",
+      "area_name": "西宁",
+      "area_type": "2",
+      "area_id": "275"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "21",
+      "area_name": "果洛",
+      "area_type": "2",
+      "area_id": "276"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "21",
+      "area_name": "海北",
+      "area_type": "2",
+      "area_id": "277"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "21",
+      "area_name": "海东",
+      "area_type": "2",
+      "area_id": "278"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "21",
+      "area_name": "海南",
+      "area_type": "2",
+      "area_id": "279"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "21",
+      "area_name": "海西",
+      "area_type": "2",
+      "area_id": "280"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "21",
+      "area_name": "黄南",
+      "area_type": "2",
+      "area_id": "281"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "21",
+      "area_name": "玉树",
+      "area_type": "2",
+      "area_id": "282"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "济南",
+      "area_type": "2",
+      "area_id": "283"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "青岛",
+      "area_type": "2",
+      "area_id": "284"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "滨州",
+      "area_type": "2",
+      "area_id": "285"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "德州",
+      "area_type": "2",
+      "area_id": "286"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "东营",
+      "area_type": "2",
+      "area_id": "287"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "菏泽",
+      "area_type": "2",
+      "area_id": "288"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "济宁",
+      "area_type": "2",
+      "area_id": "289"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "莱芜",
+      "area_type": "2",
+      "area_id": "290"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "聊城",
+      "area_type": "2",
+      "area_id": "291"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "临沂",
+      "area_type": "2",
+      "area_id": "292"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "日照",
+      "area_type": "2",
+      "area_id": "293"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "泰安",
+      "area_type": "2",
+      "area_id": "294"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "威海",
+      "area_type": "2",
+      "area_id": "295"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "潍坊",
+      "area_type": "2",
+      "area_id": "296"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "烟台",
+      "area_type": "2",
+      "area_id": "297"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "枣庄",
+      "area_type": "2",
+      "area_id": "298"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "22",
+      "area_name": "淄博",
+      "area_type": "2",
+      "area_id": "299"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "太原",
+      "area_type": "2",
+      "area_id": "300"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "长治",
+      "area_type": "2",
+      "area_id": "301"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "大同",
+      "area_type": "2",
+      "area_id": "302"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "晋城",
+      "area_type": "2",
+      "area_id": "303"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "晋中",
+      "area_type": "2",
+      "area_id": "304"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "临汾",
+      "area_type": "2",
+      "area_id": "305"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "吕梁",
+      "area_type": "2",
+      "area_id": "306"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "朔州",
+      "area_type": "2",
+      "area_id": "307"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "忻州",
+      "area_type": "2",
+      "area_id": "308"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "阳泉",
+      "area_type": "2",
+      "area_id": "309"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "23",
+      "area_name": "运城",
+      "area_type": "2",
+      "area_id": "310"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "西安",
+      "area_type": "2",
+      "area_id": "311"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "安康",
+      "area_type": "2",
+      "area_id": "312"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "宝鸡",
+      "area_type": "2",
+      "area_id": "313"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "汉中",
+      "area_type": "2",
+      "area_id": "314"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "商洛",
+      "area_type": "2",
+      "area_id": "315"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "铜川",
+      "area_type": "2",
+      "area_id": "316"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "渭南",
+      "area_type": "2",
+      "area_id": "317"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "咸阳",
+      "area_type": "2",
+      "area_id": "318"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "延安",
+      "area_type": "2",
+      "area_id": "319"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "24",
+      "area_name": "榆林",
+      "area_type": "2",
+      "area_id": "320"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "25",
+      "area_name": "上海",
+      "area_type": "2",
+      "area_id": "321"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "成都",
+      "area_type": "2",
+      "area_id": "322"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "绵阳",
+      "area_type": "2",
+      "area_id": "323"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "阿坝",
+      "area_type": "2",
+      "area_id": "324"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "巴中",
+      "area_type": "2",
+      "area_id": "325"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "达州",
+      "area_type": "2",
+      "area_id": "326"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "德阳",
+      "area_type": "2",
+      "area_id": "327"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "甘孜",
+      "area_type": "2",
+      "area_id": "328"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "广安",
+      "area_type": "2",
+      "area_id": "329"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "广元",
+      "area_type": "2",
+      "area_id": "330"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "乐山",
+      "area_type": "2",
+      "area_id": "331"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "凉山",
+      "area_type": "2",
+      "area_id": "332"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "眉山",
+      "area_type": "2",
+      "area_id": "333"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "南充",
+      "area_type": "2",
+      "area_id": "334"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "内江",
+      "area_type": "2",
+      "area_id": "335"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "攀枝花",
+      "area_type": "2",
+      "area_id": "336"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "遂宁",
+      "area_type": "2",
+      "area_id": "337"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "雅安",
+      "area_type": "2",
+      "area_id": "338"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "宜宾",
+      "area_type": "2",
+      "area_id": "339"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "资阳",
+      "area_type": "2",
+      "area_id": "340"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "自贡",
+      "area_type": "2",
+      "area_id": "341"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "26",
+      "area_name": "泸州",
+      "area_type": "2",
+      "area_id": "342"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "27",
+      "area_name": "天津",
+      "area_type": "2",
+      "area_id": "343"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "28",
+      "area_name": "拉萨",
+      "area_type": "2",
+      "area_id": "344"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "28",
+      "area_name": "阿里",
+      "area_type": "2",
+      "area_id": "345"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "28",
+      "area_name": "昌都",
+      "area_type": "2",
+      "area_id": "346"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "28",
+      "area_name": "林芝",
+      "area_type": "2",
+      "area_id": "347"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "28",
+      "area_name": "那曲",
+      "area_type": "2",
+      "area_id": "348"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "28",
+      "area_name": "日喀则",
+      "area_type": "2",
+      "area_id": "349"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "28",
+      "area_name": "山南",
+      "area_type": "2",
+      "area_id": "350"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "乌鲁木齐",
+      "area_type": "2",
+      "area_id": "351"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "阿克苏",
+      "area_type": "2",
+      "area_id": "352"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "阿拉尔",
+      "area_type": "2",
+      "area_id": "353"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "巴音郭楞",
+      "area_type": "2",
+      "area_id": "354"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "博尔塔拉",
+      "area_type": "2",
+      "area_id": "355"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "昌吉",
+      "area_type": "2",
+      "area_id": "356"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "哈密",
+      "area_type": "2",
+      "area_id": "357"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "和田",
+      "area_type": "2",
+      "area_id": "358"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "喀什",
+      "area_type": "2",
+      "area_id": "359"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "克拉玛依",
+      "area_type": "2",
+      "area_id": "360"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "克孜勒苏",
+      "area_type": "2",
+      "area_id": "361"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "石河子",
+      "area_type": "2",
+      "area_id": "362"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "图木舒克",
+      "area_type": "2",
+      "area_id": "363"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "吐鲁番",
+      "area_type": "2",
+      "area_id": "364"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "五家渠",
+      "area_type": "2",
+      "area_id": "365"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "29",
+      "area_name": "伊犁",
+      "area_type": "2",
+      "area_id": "366"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "昆明",
+      "area_type": "2",
+      "area_id": "367"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "怒江",
+      "area_type": "2",
+      "area_id": "368"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "普洱",
+      "area_type": "2",
+      "area_id": "369"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "丽江",
+      "area_type": "2",
+      "area_id": "370"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "保山",
+      "area_type": "2",
+      "area_id": "371"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "楚雄",
+      "area_type": "2",
+      "area_id": "372"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "大理",
+      "area_type": "2",
+      "area_id": "373"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "德宏",
+      "area_type": "2",
+      "area_id": "374"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "迪庆",
+      "area_type": "2",
+      "area_id": "375"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "红河",
+      "area_type": "2",
+      "area_id": "376"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "临沧",
+      "area_type": "2",
+      "area_id": "377"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "曲靖",
+      "area_type": "2",
+      "area_id": "378"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "文山",
+      "area_type": "2",
+      "area_id": "379"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "西双版纳",
+      "area_type": "2",
+      "area_id": "380"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "玉溪",
+      "area_type": "2",
+      "area_id": "381"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "30",
+      "area_name": "昭通",
+      "area_type": "2",
+      "area_id": "382"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "杭州",
+      "area_type": "2",
+      "area_id": "383"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "湖州",
+      "area_type": "2",
+      "area_id": "384"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "嘉兴",
+      "area_type": "2",
+      "area_id": "385"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "金华",
+      "area_type": "2",
+      "area_id": "386"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "丽水",
+      "area_type": "2",
+      "area_id": "387"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "宁波",
+      "area_type": "2",
+      "area_id": "388"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "绍兴",
+      "area_type": "2",
+      "area_id": "389"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "台州",
+      "area_type": "2",
+      "area_id": "390"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "温州",
+      "area_type": "2",
+      "area_id": "391"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "舟山",
+      "area_type": "2",
+      "area_id": "392"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "31",
+      "area_name": "衢州",
+      "area_type": "2",
+      "area_id": "393"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "32",
+      "area_name": "重庆",
+      "area_type": "2",
+      "area_id": "394"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "33",
+      "area_name": "香港",
+      "area_type": "2",
+      "area_id": "395"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "34",
+      "area_name": "澳门",
+      "area_type": "2",
+      "area_id": "396"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "35",
+      "area_name": "台湾",
+      "area_type": "2",
+      "area_id": "397"
+    },
+    {
+      "agency_id": "0",
+      "area_pid": "3",
+      "area_name": "合肥",
+      "area_type": "2",
+      "area_id": "3401"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.padacn.xmgoing.view.CustomToolBar
+        android:id="@+id/bind_password_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44">
+
+    </com.padacn.xmgoing.view.CustomToolBar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_25"
+        android:background="#fdf3d8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text="@string/setting_pass" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:background="@color/common_text_color_9">
+
+        </View>
+
+
+        <com.maning.library.MClearEditText
+            android:id="@+id/bind_password_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_14"
+            android:background="@null"
+            android:cursorVisible="true"
+            android:hint="@string/register_number_et"
+            android:paddingLeft="@dimen/dp_12"
+            android:textColor="@color/home_bar_serch"
+            android:textSize="@dimen/sp_14"
+            app:mClearEditText_showBottomLine="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:background="@color/common_text_color_9"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_14"
+            android:layout_marginRight="@dimen/dp_14"
+            android:orientation="horizontal">
+
+
+            <com.maning.library.MClearEditText
+                android:id="@+id/bind_true_password_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_55"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="@dimen/dp_14"
+                android:layout_weight="1"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:hint="@string/register_message_et"
+                android:paddingLeft="@dimen/dp_12"
+                android:textColor="@color/home_bar_serch"
+                android:textSize="@dimen/sp_14"
+                app:mClearEditText_showBottomLine="false" />
+
+            <RelativeLayout
+                android:id="@+id/login_code"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_29"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/login_code_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_home_three_filter_button"
+                    android:gravity="center"
+                    android:text="获取验证码"
+                    android:textColor="#111111"
+                    android:textSize="@dimen/sp_11" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:background="@color/common_text_color_9">
+
+        </View>
+
+
+        <RelativeLayout
+            android:id="@+id/bind_password_button"
+            android:layout_width="@dimen/dp_332"
+            android:layout_height="@dimen/dp_38"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_53"
+            android:background="@drawable/shape_login_button">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="完成绑定"
+                android:textColor="#111111"
+                android:textSize="@dimen/sp_15" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

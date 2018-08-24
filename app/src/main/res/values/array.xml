@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="home_second_yingdi">
+
+        <item>兴趣培养</item>
+        <item>军事生存</item>
+        <item>戶外拓展</item>
+        <item>体能运动</item>
+    </string-array>
+    <string-array name="home_second_jingdian">
+
+        <item>游乐园</item>
+        <item>景点名胜</item>
+        <item>演出展览</item>
+        <item>博物馆</item>
+    </string-array>
+
+    <string-array name="home_second_quwan">
+
+        <item>亲子活动</item>
+        <item>科学实验</item>
+        <item>体验实践</item>
+        <item>益智科技</item>
+    </string-array>
+
+    <string-array name="home_second_keyanlvxing">
+
+        <item>研学旅行</item>
+        <item>旅行度假</item>
+        <item>亲子酒店</item>
+        <item>海外游学</item>
+    </string-array>
+
+
+    <string-array name="mine_clome">
+
+        <item>我的卡券</item>
+        <item>我的足迹</item>
+        <item>我的收藏</item>
+        <item>分享给朋友</item>
+        <item>联系客服</item>
+        <item>设置</item>
+    </string-array>
+
+
+    <string-array name="mine_order">
+
+        <item>全部</item>
+        <item>待付款</item>
+        <item>待出行</item>
+        <item>待评论</item>
+        <item>退货/售后</item>
+    </string-array>
+
+</resources>

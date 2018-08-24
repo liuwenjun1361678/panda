@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Android="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.padacn.xmgoing">
+
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <!-- 用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <!-- 访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    //安装xml配置
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name=".APPAplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="cf3492f5921c4b9a77f34e0ee3f6a5c8" />
+
+        <meta-data
+            android:name="design_width"
+            android:value="768"></meta-data>
+        <meta-data
+            android:name="design_height"
+            android:value="1280"></meta-data>
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.WelcomeActivity"></activity>
+
+        <activity
+            android:name=".activity.MainHomeActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.ExCouponsCenterActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.HotSearchActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.MycouponsActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.CouponsDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.MyOrderActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.MyCollectionActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.MySettingActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.MyFootprintActivity1"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.UpdateBindPhoneActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.UpdateNewBindPhoneActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.GoodsDetailsActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.HomeSecondActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.HomeThreeActivity1"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.GoodsSureActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+
+        //常用出行人
+        <activity
+            android:name=".activity.CommonTravelActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.CommonTravleAddActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name=".activity.StrategListActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.StrategdetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.SearchResultActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name=".activity.SelectActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.SettingPasswordActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.UpdatePassActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.BindPhoneActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.CashierActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.OrderDetailsActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.MyPersonlDataActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.MessageDetailsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.MessageActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.CommentActivity"></activity>
+
+        <activity
+            android:name=".activity.WriteOffActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.CommentListActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.BusinessDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.WebDetailsActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.ActivityListActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.PaySuccessActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.UpdateNewPassActivity"
+            android:screenOrientation="portrait"></activity>
+
+        //bugly
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"></activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"></activity>
+
+        <activity
+            android:name="com.ysr.citypicker.CityPickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CityPicker.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+
+        <activity
+            android:name="com.umeng.socialize.media.WBShareCallBackActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity
+            android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.share.WbShareTransActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        //微信
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+
+        //qq
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1106929758" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:replace="android:configChanges" />
+
+        <provider
+            android:name=".util.MyFileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <!-- 广播接收器 -->
+        <receiver android:name=".service.LoginReceiver">
+            <intent-filter>
+                <action android:name="LOGIN" />
+            </intent-filter>
+
+        </receiver>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5b58711d8f4a9d2774000160" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Channel ID" />
+    </application>
+
+</manifest>

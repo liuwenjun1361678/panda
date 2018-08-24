@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_all_bg"
+    android:orientation="vertical">
+
+
+    <com.padacn.xmgoing.view.CustomToolBar
+        android:id="@+id/home_three_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44">
+
+    </com.padacn.xmgoing.view.CustomToolBar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="综合"
+                android:textColor="#111111"
+                android:textSize="@dimen/sp_15" />
+
+            <View
+                android:id="@+id/home_three_zonghe_view"
+                style="@style/home_three_under_line"></View>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="销量"
+                android:textColor="#111111"
+                android:textSize="@dimen/sp_15" />
+
+            <View
+                android:id="@+id/home_three_xiaoliang_view"
+                style="@style/home_three_under_line"></View>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/home_three_xiaoliang_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="价格"
+                android:textColor="#111111"
+                android:textSize="@dimen/sp_15" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_8"
+                android:layout_toRightOf="@+id/home_three_xiaoliang_text"
+                android:src="@mipmap/home_three_price_default" />
+
+            <View
+                android:id="@+id/home_three_price_view"
+                style="@style/home_three_under_line"></View>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/home_three_shaixuan_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="筛选"
+                android:textColor="#111111"
+                android:textSize="@dimen/sp_15" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_toRightOf="@+id/home_three_shaixuan_text"
+                android:src="@mipmap/home_three_shaixuan_img" />
+
+            <View
+                android:id="@+id/home_three_shaxuan_view"
+                style="@style/home_three_under_line"></View>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="@color/main_line_view">
+
+    </View>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/home_three_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

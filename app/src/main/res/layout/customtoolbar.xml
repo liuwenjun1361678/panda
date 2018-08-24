@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/custom_toolbar_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48">
+
+        <RelativeLayout
+            android:id="@+id/header_Back_Rl"
+            android:layout_width="@dimen/dp_44"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/header_Back"
+                android:layout_width="@dimen/dp_10"
+                android:layout_height="@dimen/dp_18"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_13"
+                android:src="@mipmap/login_back" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/custom_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="@color/common_text_color_1"
+            android:textSize="@dimen/sp_18" />
+
+        <TextView
+            android:id="@+id/custom_toolbar_right_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_10"
+            android:text=""
+            android:textColor="@color/main_bottom_textColor"
+            android:textSize="@dimen/sp_13" />
+
+    </RelativeLayout>
+</RelativeLayout>

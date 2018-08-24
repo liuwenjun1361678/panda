@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/mian_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="@color/common_f0"></View>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/main_bottom_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginRight="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_10"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="@dimen/dp_0"
+        app:cardElevation="@dimen/dp_2"
+        app:cardMaxElevation="@dimen/dp_5"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/item_home_bottom_Rl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_140">
+
+                <ImageView
+                    android:id="@+id/item_home_bottom_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/default_image" />
+
+                <ImageView
+                    android:id="@+id/item_home_bottom_typeImage"
+                    android:layout_width="@dimen/dp_65"
+                    android:layout_height="@dimen/dp_19"
+                    android:scaleType="centerCrop">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/item_home_bottom_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_18"
+                android:layout_marginRight="@dimen/dp_18"
+                android:layout_marginTop="@dimen/dp_10"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="#111111"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_home_bottom_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_18"
+                android:layout_marginRight="@dimen/dp_18"
+                android:layout_marginTop="@dimen/dp_8"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/dp_4"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/common_text_color_9"
+                android:textSize="@dimen/sp_11" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_24"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_marginLeft="@dimen/dp_18"
+                android:layout_marginRight="@dimen/dp_18"
+                android:layout_marginTop="@dimen/dp_5"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_0">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/item_home_bottom_recycler"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:nestedScrollingEnabled="false">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/dp_75"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_home_bottom_price_bg"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_0">
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/item_home_bottom_price_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/item_home_bottom_price"
+                            android:layout_alignParentStart="true"
+                            android:text="@string/moneny_string"
+                            android:textColor="@color/common_text_color_1"
+                            android:textSize="@dimen/sp_10" />
+
+                        <TextView
+                            android:id="@+id/item_home_bottom_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_toRightOf="@+id/item_home_bottom_price_1"
+                            android:text="500"
+                            android:textColor="@color/common_text_color_1"
+                            android:textSize="@dimen/sp_14"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/item_home_bottom_price"
+                            android:layout_marginLeft="@dimen/dp_2"
+                            android:layout_toRightOf="@+id/item_home_bottom_price"
+                            android:text="起"
+                            android:textColor="@color/common_text_color_1"
+                            android:textSize="@dimen/sp_9" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

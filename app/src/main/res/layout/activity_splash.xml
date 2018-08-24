@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/splash_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/splash_bg">
+
+    <com.padacn.xmgoing.widget.CountDownView
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_20"
+        app:cd_animator_time="2"
+        app:cd_animator_time_unit="S"
+        app:cd_arc_color="@color/common_text_color_6"
+        app:cd_arc_width="@dimen/dp_3"
+        app:cd_bg_color="@color/common_ffffff"
+        app:cd_circle_radius="@dimen/dp_20"
+        app:cd_location="left"
+        app:cd_retreat_type="forward"
+        app:cd_text_color="@color/common_text_color_6"
+        app:cd_text_size="14sp" />
+
+</RelativeLayout>

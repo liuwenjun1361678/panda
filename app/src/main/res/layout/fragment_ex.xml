@@ -1,0 +1,410 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_ffffff">
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/ex_refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MergeRootFrame">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/ex_app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/write"
+                app:layout_behavior="com.padacn.xmgoing.util.FixAppBarLayoutBehavior">
+
+                <android.support.design.widget.CollapsingToolbarLayout
+                    android:id="@+id/ex_toolbar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:contentScrim="?attr/colorPrimary"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.github.florent37.arclayout.ArcLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_182"
+                            app:arc_cropDirection="cropInside"
+                            app:arc_height="@dimen/dp_10">
+
+                            <com.youth.banner.Banner
+                                android:id="@+id/ex_banner"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                android:verticalScrollbarPosition="right"
+                                app:indicator_drawable_selected="@drawable/shape_banner_true"
+                                app:indicator_drawable_unselected="@drawable/shape_banner_false"
+                                app:indicator_margin="@dimen/dp_1"
+                                app:indicator_width="@dimen/dp_14" />
+
+                        </com.github.florent37.arclayout.ArcLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dp_17"
+                                android:layout_marginLeft="@dimen/dp_10"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_20"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="@dimen/dp_5"
+                                    android:src="@mipmap/home_left_icon" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginRight="@dimen/dp_5"
+                                    android:src="@mipmap/ex_volume_center" />
+                            </LinearLayout>
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/ex_coupons_rl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp_12"
+                                android:layout_marginTop="@dimen/dp_15"
+                                android:nestedScrollingEnabled="false"
+                                android:orientation="vertical">
+
+                            </android.support.v7.widget.RecyclerView>
+
+
+                            <RelativeLayout
+                                android:id="@+id/look_more_coupons"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_marginLeft="@dimen/dp_10"
+                                android:layout_marginRight="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_12"
+                                android:background="@drawable/ex_change_button_gard">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_centerInParent="true"
+
+                                    android:gravity="center"
+                                    android:text="查看更多优惠券"
+                                    android:textColor="@color/common_ffffff"
+                                    android:textSize="@dimen/sp_15" />
+
+
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/ex_top_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_60"
+                        android:background="@drawable/ex_change_button"
+                        android:paddingTop="@dimen/dp_20"
+                        app:contentInsetStart="0dp"
+                        app:layout_collapseMode="pin">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/fragment_ex_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="#111111"
+                                android:textSize="@dimen/sp_18" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.Toolbar>
+
+                </android.support.design.widget.CollapsingToolbarLayout>
+
+            </android.support.design.widget.AppBarLayout>
+
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/item_detail_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_7"
+                        android:layout_marginTop="@dimen/dp_15"
+                        android:background="@color/main_line_view"></View>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_17"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_12"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/dp_5"
+                            android:src="@mipmap/home_left_icon" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/dp_5"
+                            android:src="@mipmap/ex_limited" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/dp_5"
+                            android:src="@mipmap/ex_title_hot" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_15">
+
+
+                        <LinearLayout
+                            android:layout_width="@dimen/dp_110"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ex_shop_image_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dp_96"
+                                android:background="@mipmap/default_image" />
+
+                            <TextView
+                                android:id="@+id/ex_shop_title_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/sp_9"
+                                android:ellipsize="end"
+                                android:lineSpacingExtra="@dimen/dp_4"
+                                android:maxLines="2"
+                                android:text=""
+                                android:textColor="@color/common_text_color_1"
+                                android:textSize="@dimen/dp_12" />
+
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp_5"
+                                android:layout_marginRight="@dimen/dp_5"
+                                android:layout_marginTop="@dimen/dp_3">
+
+                                <TextView
+                                    android:id="@+id/ex_shop_price_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="#d61f1f"
+                                    android:textSize="@dimen/sp_11" />
+
+                                <TextView
+                                    android:id="@+id/ex_shop_num_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="#808080"
+                                    android:textSize="@dimen/sp_9" />
+
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="@dimen/dp_110"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ex_shop_image_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_96"
+                                android:background="@mipmap/default_image" />
+
+
+                            <TextView
+                                android:id="@+id/ex_shop_title_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/sp_9"
+                                android:ellipsize="end"
+                                android:lineSpacingExtra="@dimen/dp_4"
+                                android:maxLines="2"
+                                android:text=""
+                                android:textColor="@color/common_text_color_1"
+                                android:textSize="@dimen/dp_12" />
+
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp_5"
+                                android:layout_marginRight="@dimen/dp_5"
+                                android:layout_marginTop="@dimen/dp_3">
+
+
+                                <TextView
+                                    android:id="@+id/ex_shop_price_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:text=""
+                                    android:textColor="#d61f1f"
+                                    android:textSize="@dimen/sp_11" />
+
+                                <TextView
+                                    android:id="@+id/ex_shop_num_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_centerVertical="true"
+                                    android:text=""
+                                    android:textColor="#808080"
+                                    android:textSize="@dimen/sp_9" />
+
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="@dimen/dp_110"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ex_shop_image_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_96"
+                                android:background="@mipmap/default_image" />
+
+                            <TextView
+                                android:id="@+id/ex_shop_title_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/sp_9"
+                                android:ellipsize="end"
+                                android:lineSpacingExtra="@dimen/dp_4"
+                                android:maxLines="2"
+                                android:text=""
+                                android:textColor="@color/common_text_color_1"
+                                android:textSize="@dimen/dp_12" />
+
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp_5"
+                                android:layout_marginRight="@dimen/dp_5"
+                                android:layout_marginTop="@dimen/dp_3">
+
+
+                                <TextView
+                                    android:id="@+id/ex_shop_price_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:text=""
+                                    android:textColor="#d61f1f"
+                                    android:textSize="@dimen/sp_11" />
+
+                                <TextView
+                                    android:id="@+id/ex_shop_num_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_centerVertical="true"
+                                    android:text=""
+                                    android:textColor="#808080"
+                                    android:textSize="@dimen/sp_9" />
+
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_1"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:background="#f0f0f0"></View>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/ex_list_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/common_ffffff"
+                        android:nestedScrollingEnabled="false"
+                        android:orientation="vertical">
+
+                    </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</RelativeLayout>

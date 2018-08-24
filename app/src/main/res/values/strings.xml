@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">熊猫成长季</string>
+
+    <string name="home_bar_city">成都</string>
+
+    <string name="home_bar_hint">目的地/商品/活动</string>
+
+
+    <string name="main_top1">趣玩·亲子</string>
+
+    <string name="main_top2">营地·教育</string>
+
+    <string name="main_top3">研学·旅行</string>
+
+    <string name="main_top4">景点·乐园</string>
+
+    <string name="main_top5">熊猫·攻略</string>
+
+
+    <string name="main_bottom_home">首页</string>
+    <string name="main_bottom_ex">特惠</string>
+    <string name="main_bottom_shop">购物车</string>
+    <string name="main_bottom_mine">我的</string>
+
+    //首頁秒殺
+    <string name="secondkill_word">秒杀价</string>
+    <string name="secondkill_sale_num">¥600</string>
+    <string name="secondkill_last_num">¥600</string>
+    <string name="home_more_text">我是推荐左边的标题我是推荐左边我是推荐左边的标题我是推荐左边的标题我是推荐左边的标的标题我是推荐左边的标题hahahahahah</string>
+    <string name="main_recommendation_left_header">推荐</string>
+    <string name="main_recommendation_left_title">我是推荐左边的标题</string>
+    <string name="main_recommendation_left_like">61人说好</string>
+
+    //首页秒杀
+    <string name="kill_over">已结束</string>
+    <string name="kill_ing">抢购中</string>
+    //首頁活动推荐
+    <string name="recommend_activity">活动推荐</string>
+
+    <string name="login_title">登录</string>
+    <string name="login_num">账号</string>
+    <string name="login_pas">密码</string>
+    <string name="login_num_et">请输入手机号</string>
+    <string name="login_pas_ex">请输入密码</string>
+    <string name="login_forget_pas">忘记密码</string>
+    <string name="login_type_text">第三方登录</string>
+    <string name="login_phone_register">手机快速注册</string>
+
+    <string name="titke_string">套餐说明></string>
+    <string name="good_details_title">详情页</string>
+
+    //手機註冊
+    <string name="register_number_et">请输入手机号</string>
+    <string name="register_message_et">请短信验证码</string>
+    <string name="register_psw_et">请设置8到16位数字或字母密码</string>
+    <string name="register_psw_sure_et">请确认密码</string>
+    <string name="new_psw_et">请设置8到16位数字或字母新密码</string>
+    <string name="new_psw_sure_et">请确认新密码</string>
+    <string name="mine_no_login">亲，您还没登录哟！</string>
+
+    //修改密碼
+    <string name="setting_curr_pas">请输入当前密码</string>
+    <string name="mine_gologin">登录</string>
+    <string name="mine_register">注册</string>
+
+
+    <string name="shop_sure_name">请输入姓名</string>
+    <string name="shop_sure_phone">用于接收预订人信息</string>
+
+    //修改手机绑定
+    //验证当前手机
+    <string name="update_phone_bind">请输入当前手机号</string>
+    <string name="update_phone_bind_code">请输入短信验证码</string>
+    //
+    <string name="update_new_phone_bind">请输入新手机号</string>
+    <string name="mine_order">我的订单</string>
+    <string name="mine_pend_pay">待付款</string>
+    <string name="mine_travel">待出行</string>
+    <string name="mine_comment">待评论</string>
+    <string name="mine_refund">退货/售后</string>
+
+
+    <string name="mine_column_item">我的足迹</string>
+
+    <string name="mine_share_text">分享到</string>
+
+
+    <string name="mine_data">个人资料</string>
+    <string name="mine_header">头像</string>
+    <string name="mine_name">名称</string>
+    <string name="mine_sex">性别</string>
+    <string name="mine_brith">出生年月</string>
+    <string name="mine_city">所在城市</string>
+
+
+    <string name="mine_children_data_title">宝贝信息</string>
+    <string name="mine_children_data_num">(0个孩子)</string>
+    <string name="mine_children_data_add">+ 添加</string>
+    <string name="mine_children_data_del">刪除</string>
+
+
+    <string name="ok">确定</string>
+    <string name="all">全部</string>
+    <string name="cancel">取消</string>
+
+    <string name="common_travel_people_notice">为保证顺利出行，请确保填写的信息与证件中的一致</string>
+
+
+    <string name="setting_pass">设置密码可以通过多种方式登录哟</string>
+    <string name="bind_phone">为了获取及时的通知，请您绑定手机号</string>
+    <string name="comment">您对这次的活动满意吗？说说您的心得体会</string>
+
+    <string name="service_descrrption">服务说明</string>
+    <string name="service_descrrption_cancle">返回</string>
+    <string name="sellerDetails_goods">全部商品</string>
+
+    <string name="common_now_bug">立即购买</string>
+    <string name="common_price_start">起</string>
+
+
+    <string name="curr_version_string">当前版本</string>
+    <string name="app_contant"> "\u3000\u3000"熊猫成长季是一款专注于青少年“体验式素质教育”优质资源聚合的教育信息类App，集研学旅行、社会实践、亲子活动、素质拓展、景点票务等创新型素质教育类产品为一体，为培育并提升青少年核心素养提供全品类信息和服务，探索打造中国青少年素质教育新IP。</string>
+
+    <string name="app_bottom_contant_1">Copyright 2006-2018</string>
+    <string name="app_bottom_contant_2">四川四季成长科技有限公司 all right reserved</string>
+    <string name="login_error">您的账号登录出现异常，是否重新登录?</string>
+    <string name="empty_string">抱歉！无更多的内容</string>
+
+
+    <string name="coupons_string_1">1.点击“立即领券”按钮，领取成功后进入店铺时使用，即可享受优惠。</string>
+    <string name="coupons_string_2">2.在我的-卡券，可查看已发放到账户的优惠券。</string>
+
+    <string name="good_sure_travle">为了保证您顺利出行，请务必保证所填项与出行所持证件一致</string>
+
+    <string name="moneny_string">¥</string>
+</resources>

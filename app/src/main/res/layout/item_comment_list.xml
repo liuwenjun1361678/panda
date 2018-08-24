@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:layout_marginRight="@dimen/dp_10"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:descendantFocusability="blocksDescendants">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:orientation="horizontal">
+
+            <com.padacn.xmgoing.view.ZQRoundOvalImageView
+                android:id="@+id/comment_head"
+                android:layout_width="@dimen/dp_26"
+                android:layout_height="@dimen/dp_26"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
+                android:src="@mipmap/default_image" />
+
+            <TextView
+                android:id="@+id/comment_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text=""
+                android:textColor="#111111"
+                android:textSize="@dimen/sp_12" />
+
+
+        </LinearLayout>
+
+
+        <com.padacn.xmgoing.view.ratingbar.BaseRatingBar
+            android:id="@+id/comment_list_ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/sp_15"
+            android:layout_marginRight="@dimen/dp_10"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srb_clickable="false"
+            app:srb_drawableEmpty="@mipmap/comment_star_false"
+            app:srb_drawableFilled="@mipmap/cooment_star_true" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/comment_contant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text=""
+        android:textColor="#111111"
+        android:textSize="@dimen/sp_14" />
+
+
+    <TextView
+        android:id="@+id/comment_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text=""
+        android:textColor="#666666"
+        android:textSize="@dimen/sp_12" />
+
+
+    <com.lzy.ninegrid.NineGridView
+        android:id="@+id/nineGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="@dimen/dp_4"
+        app:ngv_gridSpacing="3dp"
+        app:ngv_maxSize="6"
+        app:ngv_mode="grid"
+        app:ngv_singleImageRatio="1"
+        app:ngv_singleImageSize="@dimen/dp_110" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginTop="@dimen/dp_5"
+        android:background="@color/common_f0"></View>
+
+</LinearLayout>

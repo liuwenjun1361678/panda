@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_item_goods_sure_rl"
+    android:layout_width="@dimen/dp_74"
+    android:layout_height="@dimen/dp_30"
+    android:layout_marginTop="@dimen/dp_10"
+
+    android:background="@drawable/shape_good_sure_people">
+
+    <TextView
+        android:id="@+id/people_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="王小明" />
+
+
+    <LinearLayout
+        android:id="@+id/add_people"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dp_17"
+            android:layout_height="@dimen/dp_17"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_4"
+            android:src="@mipmap/good_sure_add_people" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="新增" />
+
+    </LinearLayout>
+
+</RelativeLayout>
